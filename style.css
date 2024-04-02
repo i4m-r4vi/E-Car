@@ -1,0 +1,12 @@
+.banner{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(img/10001.jpg);
+    background-size: cover;
+    height: 780px;
+}
+
+
+@media screen and (max-width:767px) {
+    .banner{
+        background-position: 40% 50%;
+    }   
+}
